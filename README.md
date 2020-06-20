@@ -28,7 +28,6 @@ docker-compose run rustseed
 
 ```
 rm -rf .git
-./setenv.sh
 ```
 
 5. Run cargo init (required only when creating a new app)
