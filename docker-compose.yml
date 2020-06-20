@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  rustseed:
+    build:
+      context: .
+    image: rustseed:1.44.1
+    environment:
+      USER: 'vairamsvsjdo'
+    volumes:
+      - ./:/rustseed
